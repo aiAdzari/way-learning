@@ -1,2 +1,10 @@
-# -
-关于入门编程的题库、或其他奇思妙想
+```c
+#include <stdio.h>
+
+int main ()
+{
+	printf("Hello, world!");
+  
+  return 0;
+}
+```
