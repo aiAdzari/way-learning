@@ -32,13 +32,13 @@ int main(void)
 		switch (op)
 		{
 			case '+':
-				printf("%d+%d=%ld", data1, data2, (data1 + (long int)data2));
+				printf("%d+%d=%lf", data1, data2, (data1 + (double)data2));
 				break;
 			case '-':
-				printf("%d-%d=%d", data1, data2, data1 - data2);
+				printf("%d-%d=%lf", data1, data2, (data1 - (double)data2));
 				break;
 			case '*':
-				printf("%d*%d=%ld", data1, data2, (data1 * (long int)data2));
+				printf("%d*%d=%lf", data1, data2, (data1 * (double)data2));
 				break;
 			default:
 				break;
