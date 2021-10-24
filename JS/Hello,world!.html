@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js对象</title>
+</head>
+<body>
+    <p id="demo"> </p>
+
+<script>
+    var a = {
+        first:"Hello",
+        sec:",",
+        last:"World!",
+        output: function (){
+            return this.first + this.sec + this.last;
+        }
+    }
+    document.getElementById("demo").innerHTML = a.output();
+</script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+       .container {
+           width: 60%;
+           margin: 0 auto;
+           padding: 0;
+       }
+      .header {
+        background-color: cadetblue;
+        text-align: center;
+        padding: 5px;
+      }
+      .topnav {
+        background-color: darkgray;
+        overflow: auto;
+      }
+      .topnav ul {
+          text-decoration: none;
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+      }
+      .topnav li a{
+          display: inline-block; /* 块级显示 */
+          color: white;
+          text-align: center;
+          padding: 16px 16px;
+          float: left;
+      }
+      .topnav li a:hover {
+          background-color: black;
+      }
+       .clearfix {
+           clear: both;
+       }
+      .column {
+          float: left;
+      }
+      .sidenav {
+          width: 25%;
+      }
+      .sidenav ul{
+          overflow: auto;
+          text-decoration: none;
+          list-style-type: none;
+          padding: 0;
+      }
+      .sidenav li a{
+          background-color: darkgray;
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 16px;
+          margin-bottom: 4px;
+      }
+      .sidenav li a:hover {
+          background-color: black;
+      }
+      .content {
+          width:calc(75% - 32px);
+          padding: 16px;
+          height: 232px;
+          overflow: auto;
+      }
+      .title {
+          background-color: cadetblue;
+          text-align: center;
+          margin: 0;
+          padding: 6px;
+      }
+      .footer {
+          background-color: black;
+          text-align: center;
+          color: white;
+          margin: 0;
+          padding: 0;
+
+      }
+    </style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>这是一个经典布局</h1>
+  </div>
+  <div class="topnav">
+    <ul>
+        <li><a>首页</a></li>
+        <li><a>第二条</a></li>
+        <li><a>第三条</a></li>
+        <li><a>第四条</a></li>
+    </ul>
+  </div>
+    <div class="column sidenav">
+      <ul>
+          <li><a>首页</a></li>
+          <li><a>第二条</a></li>
+          <li><a>第三条</a></li>
+          <li><a>第四条</a></li>
+      </ul>
+    </div>
+      <div class="column content">
+          <div class="title">
+              <h2>这是小标题</h2>
+          </div>
+          <div>
+              <p>这件事闹得挺大的，全球都传疯了。这件事闹得确实挺大，但也不是特别大，你要说小吧，倒也不是特别小，我觉得这事还是挺大的，不过不是特别大，但也不小。大家都觉得这事特别大，但我觉得也没那么大，但你要说小吧，这件事也不小。</p>
+              <p>更多内容～</p>
+              <p>更多内容～</p>
+              <p>更多内容～</p>
+          </div>
+
+      </div>
+    <div class="clearfix"></div>
+    <div class="footer">
+        <p style="margin: 0; padding: 6px">以上就是全部啦</p>
+    </div>
+</div>
+</body>
+</html>
