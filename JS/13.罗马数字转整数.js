@@ -26,4 +26,4 @@
     return ans;
 };
 
-console.log(romanToInt('IV'));
+console.log(romanToInt('XIV'));

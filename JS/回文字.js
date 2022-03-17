@@ -3,7 +3,7 @@ function reversstring(string){
         return false;
     }
     for (let index = 0; index < Math.floor(string.length / 2); index++) {
-        if (string[index] != string[string.length - 1]) {
+        if (string[index] != string[string.length - 1 - index]) {
             return false;
         }
         
@@ -11,4 +11,4 @@ function reversstring(string){
     return true;
 }
 
-console.log(reversstring('ada'));
+console.log(reversstring('adada'));
